@@ -2,6 +2,7 @@ import pywikibot
 
 site = pywikibot.Site('en', 'wikipedia')
 
+# Creates a generator object of all the articles in the site object, .articles() returns all the articles in the site object as a generator object
 all_pages = site.allpages()
 
 for page in all_pages:
